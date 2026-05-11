@@ -10,15 +10,17 @@ Inspired by a real-world business problem at **Heidstar Technology** (Xiamen, Ch
 
 You give the system a one-line search brief in plain English. It returns ranked, qualified leads — each with a tailored sales proposal ready for human review.                                                    
 
-INPUT:   "Stem cell research laboratories in Europe doing iPSC work"
+```
+INPUT   → "Stem cell research laboratories in Europe doing iPSC work"
 
-┌─────────────────────────────────────┐
-     │       LangGraph Orchestrator        │
-     └────────┬──────┬──────┬──────────────┘
-              ▼      ▼      ▼
-          Researcher  Qualifier  Writer
-          (web)       (LLM+DB)   (LLM+DB)
+          [ LangGraph Orchestrator ]
+                 |         |         |
+                 v         v         v
+           Researcher  Qualifier  Writer
+             (web)     (LLM+DB)  (LLM+DB)
 
+OUTPUT  → Ranked qualified leads + tailored Markdown proposals
+```
 
 
 OUTPUT:  Ranked qualified leads + tailored Markdown proposals
@@ -43,7 +45,7 @@ This is not a tutorial. It is a working solution to a real revenue problem for a
 ---
 
 ## Architecture
-
+```
 src/
 ├── agents/
 │   ├── researcher.py       Researcher Agent — finds leads from live web
@@ -58,6 +60,7 @@ src/
 data/
 └── heidstar_products.json  Heidstar product catalog (6 products, 3 future markets)
 
+```
 ### Tech Stack
 
 | Layer | Technology | Purpose |
