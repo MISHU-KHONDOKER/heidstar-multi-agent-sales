@@ -1,0 +1,25 @@
+# API keys and secrets — NEVER commit these
+.env
+*.key
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp

@@ -1,0 +1,16 @@
+# Core LLM and agent libraries
+langchain==0.3.7
+langgraph==0.2.45
+langchain-openai==0.2.10
+
+# LangChain Google connector (for Gemini fallback option)
+langchain-google-genai==2.0.4
+
+# Web search tool
+tavily-python==0.5.0
+
+# Environment variables management
+python-dotenv==1.0.1
+
+# Data handling
+pydantic==2.9.2

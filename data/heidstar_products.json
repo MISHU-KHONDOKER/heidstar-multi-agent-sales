@@ -1,0 +1,178 @@
+{
+  "company": {
+    "name": "Heidstar Technology",
+    "name_chinese": "海德星科技",
+    "location": "Xiamen, China",
+    "founded": 2009,
+    "credentials": [
+      "Zeiss Class A Global Supplier (China's first Zeiss complete machine ODM)",
+      "Aerospace-grade certified (on-orbit tests completed)",
+      "ISO9001 certified",
+      "High-tech enterprise certified"
+    ],
+    "tagline": "From components to systems, from prototype to production"
+  },
+  "products": [
+    {
+      "id": "HDS-MSCAN-200A",
+      "category": "Digital Pathology",
+      "tier": "flagship",
+      "description": "High-throughput digital pathology slide scanner for hospital pathology departments. Scans 200 slides automatically, runs 24/7 unattended.",
+      "specs": {
+        "slide_capacity": 200,
+        "scan_speed_per_slide_seconds": "18-30",
+        "operation": "24/7 unattended",
+        "use_case": "Hospital pathology, cancer diagnosis, tuberculosis screening, immunohistochemistry"
+      },
+      "target_customers": [
+        "Hospital pathology departments",
+        "Diagnostic laboratories",
+        "Reference pathology labs",
+        "Pathology research institutes"
+      ],
+      "ideal_lead_signals": [
+        "Hospital pathology department",
+        "Digital pathology adoption",
+        "High slide volume workflow",
+        "Cancer diagnostic services",
+        "Histopathology research"
+      ],
+      "global_units_sold": "180+ in 2024-2025"
+    },
+    {
+      "id": "HDS-MSCAN-240A",
+      "category": "Digital Pathology",
+      "tier": "high-volume",
+      "description": "Higher-capacity version of HDS-MSCAN-200A for very high-volume hospital pathology departments.",
+      "specs": {
+        "slide_capacity": 240,
+        "scan_speed_per_slide_seconds": "18-30",
+        "operation": "24/7 unattended",
+        "use_case": "High-volume hospital pathology, large reference labs"
+      },
+      "target_customers": [
+        "Large hospital systems",
+        "Major reference laboratories",
+        "Multi-site pathology services"
+      ],
+      "ideal_lead_signals": [
+        "Large hospital network",
+        "High slide throughput",
+        "Multi-location pathology service"
+      ]
+    },
+    {
+      "id": "HDS-MSCAN-60F",
+      "category": "Fluorescence Imaging",
+      "tier": "flagship",
+      "description": "Multi-channel fluorescence slide scanner for FISH testing, immunofluorescence, and spatial omics. 60-slide capacity with multiplex fluorescence channel switching.",
+      "specs": {
+        "slide_capacity": 60,
+        "resolution": "<= 0.25 micrometers per pixel",
+        "channels": "Multiplex fluorescence",
+        "scan_speed": "15mm x 15mm area in under 3 minutes",
+        "use_case": "FISH testing, cancer genetics, immunofluorescence, spatial omics, drug discovery"
+      },
+      "target_customers": [
+        "Cancer genetics labs",
+        "Pharmaceutical drug discovery teams",
+        "Spatial transcriptomics researchers",
+        "Immunology research labs"
+      ],
+      "ideal_lead_signals": [
+        "FISH testing services",
+        "High-content fluorescence imaging",
+        "Spatial omics research",
+        "Drug screening operations",
+        "Cancer genetics research",
+        "Pharma R&D imaging"
+      ]
+    },
+    {
+      "id": "HDS-MSCAN-4F",
+      "category": "Fluorescence Imaging",
+      "tier": "compact",
+      "description": "Compact 4-slide fluorescence scanner for small labs or low-volume fluorescence work.",
+      "specs": {
+        "slide_capacity": 4,
+        "resolution": "<= 0.25 micrometers per pixel",
+        "use_case": "Low-volume fluorescence imaging, small research groups"
+      },
+      "target_customers": [
+        "Small research labs",
+        "University research groups",
+        "Pilot studies"
+      ],
+      "ideal_lead_signals": [
+        "Small academic lab",
+        "Pilot fluorescence work",
+        "Limited slide volume"
+      ]
+    },
+    {
+      "id": "HDS-IX73-Series",
+      "category": "Automated Microscopy Systems",
+      "tier": "research",
+      "description": "Inverted fluorescence microscope system for live cell imaging, stem cell monitoring, and drug screening. Used for imaging cells from below — common in live cell and culture work.",
+      "specs": {
+        "type": "Inverted fluorescence microscope",
+        "use_case": "Live cell imaging, stem cell colony monitoring, drug screening, organoid imaging",
+        "software": "HDScanner (one-click operation, automatic focusing)"
+      },
+      "target_customers": [
+        "Stem cell research labs",
+        "Live cell biology researchers",
+        "iPSC banks",
+        "Organoid researchers",
+        "Drug screening labs"
+      ],
+      "ideal_lead_signals": [
+        "Live cell imaging research",
+        "Stem cell laboratory",
+        "iPSC banking",
+        "Drug screening with cell cultures",
+        "Organoid research"
+      ]
+    },
+    {
+      "id": "HDS-Components",
+      "category": "Precision Components",
+      "tier": "ODM",
+      "description": "Individual precision components — motorized stages, Z-axis actuators, filter converters, motion control systems — sold to Zeiss and other OEM partners worldwide. Aerospace-grade precision.",
+      "specs": {
+        "tolerance": "Submicron precision",
+        "applications": "Microscopy, optical instruments, semiconductor inspection, aerospace imaging",
+        "certifications": "Zeiss Class A, aerospace-grade"
+      },
+      "target_customers": [
+        "Microscopy OEMs",
+        "Optical instrument manufacturers",
+        "Semiconductor inspection equipment makers",
+        "Aerospace imaging systems"
+      ],
+      "ideal_lead_signals": [
+        "Microscope manufacturer",
+        "Optical instrument company",
+        "Building imaging systems",
+        "Need precision motorized components"
+      ]
+    }
+  ],
+  "future_markets": [
+    {
+      "name": "Drug Development",
+      "description": "AI-driven high-content screening for pharmaceutical compound testing. Massive market opportunity.",
+      "fits_products": ["HDS-MSCAN-60F", "HDS-IX73-Series"]
+    },
+    {
+      "name": "iPSC Stem Cell Banking",
+      "description": "Autologous stem cell banks need automated imaging for colony health, differentiation, contamination monitoring.",
+      "fits_products": ["HDS-IX73-Series", "HDS-MSCAN-60F"]
+    },
+    {
+      "name": "Space Biology",
+      "description": "Microscopy imaging on the ISS and for space biology experiments — requires fully autonomous AI analysis.",
+      "fits_products": ["HDS-IX73-Series", "HDS-Components"]
+    }
+  ]
+}
